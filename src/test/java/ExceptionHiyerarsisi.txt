@@ -1,0 +1,26 @@
+-Object
+    -Throwable                                          //firlatilabilir
+        -Exception                                      //istisna
+            -RunTimeException                           //Çalışma zamanı istisnası
+                -AritmeticException                     //Aritmetik İstisna
+                -NullPointerException                   //Boş İşaretçi İstisnası
+                -ClassCastException                     //Sınıf Atma İstisnası
+                -IndexOutOfBoundsException              //Index Sınır Dışı İstisnası
+                    -ArrayIndexOutOfBoundsException     //Dizi Endeksi Sınır Dışı İstisnası
+                    -StringIndexOutOfBoundsException    //Dize Dizini Sınır Dışı İstisnası
+            -IOException                                //Giriş çıkışı İstisna
+                -EOFException
+                -FileNotFoundException                  //Dosya Bulunamadı İstisnası
+                -InterruptIOException
+                -FileNotFoundException
+            -SQLException
+            -AWTException
+            -InterruptedException
+        -Error
+            -VituralMachinError
+                -StackOverflowError
+                -OutOfMemoryError
+            -AssertionError
+            -ExceptionInitializerError
+            -IOError
+            -AWTError
