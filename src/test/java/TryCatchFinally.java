@@ -12,7 +12,7 @@ public class TryCatchFinally {
         try {
             int [] sayilar = new int[]{1,2,3,};
             System.out.println(sayilar[5]);
-        }catch (Exception exception){
+        }catch (IndexOutOfBoundsException exception){
             System.out.println(exception);
         }finally {
             System.out.println("ben her turlu calisirim");
